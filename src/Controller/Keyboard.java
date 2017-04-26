@@ -31,6 +31,9 @@ public class Keyboard implements KeyListener{
 			case KeyEvent.VK_UP:
 				game.movePlayer(0, -1, player1);
 				break;	
+			case KeyEvent.VK_D:
+				game.drinkPotion(player1);
+				break;
 			/*case KeyEvent.VK_SPACE:
 				game.dropBomb("nuke", player1);
 				break;
